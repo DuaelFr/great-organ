@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node init.js"
   },
   "author": "DuaelFr great.organ@duael.fr",
   "license": "MIT"
