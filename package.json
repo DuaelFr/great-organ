@@ -1,0 +1,13 @@
+{
+  "name": "great-organ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DuaelFr great.organ@duael.fr",
+  "license": "MIT"
+}
