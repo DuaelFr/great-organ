@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "init.js",
-  "dependencies": {},
+  "dependencies": {
+    "midi": "^0.9.5"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
