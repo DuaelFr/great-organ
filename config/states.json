@@ -1,0 +1,12 @@
+{
+  "waiting": {
+    "instrument": "organ",
+    "sequence": "3type",
+    "tempo": 5000
+  },
+  "maintenance": {
+    "instrument": "piano",
+    "sequence": "clair-lune",
+    "tempo": 7000
+  }
+}
