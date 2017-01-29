@@ -2,11 +2,42 @@
   "waiting": {
     "instrument": "organ",
     "sequence": "3type",
-    "tempo": 5000
+    "tempo": 5000,
+    "transitions": {
+      "halt": [{
+        "callback": "halt",
+        "arguments": [],
+        "delay": 0
+      }],
+      "3type": [{
+        "callback": "changeState",
+        "arguments": ["awake"],
+        "delay": 1000
+      }]
+    }
   },
-  "maintenance": {
-    "instrument": "piano",
-    "sequence": "clair-lune",
-    "tempo": 7000
+  "awake": {
+    "instrument": "organ",
+    "sequence": "joy",
+    "tempo": 5000,
+    "transitions": {
+      "halt": [{
+        "callback": "halt",
+        "arguments": [],
+        "delay": 0
+      }],
+      "joy": [
+        {
+          "callback": "playSequence",
+          "arguments": ["joy2"],
+          "delay": 1000
+        },
+        {
+          "callback": "halt",
+          "arguments": [],
+          "delay": 5000
+        }
+      ]
+    }
   }
 }
